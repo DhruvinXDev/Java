@@ -17,6 +17,7 @@ class Opration {
         // System.out.println("Enter Char for Find : ");
         // String index = in.next();
         // System.out.println("Char at index : " + s.indexOf(index));
+
         boolean c =true;
         while(c)
         {
@@ -65,6 +66,9 @@ class Opration {
                     System.out.println("Enter Contain World For check : ");
                     String s5 = in.next();
                     System.out.println("Main String " + s + "Contains status is : " +s.contains(s5));
+                    break;
+                case 7:
+                    System.out.println("Enter String status is : " + s.isEmpty());
                     break;
                 
                 case 11:
